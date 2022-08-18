@@ -64,7 +64,7 @@ export default {
             mensajePassword: "",
         }
     },
-        
+
     methods: {
         addUsuario() {
             if (this.checkForm()){

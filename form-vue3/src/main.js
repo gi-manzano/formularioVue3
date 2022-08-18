@@ -7,7 +7,4 @@ import axios from 'axios'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 
-const appR = createApp(App)
-appR.use(store)
-appR.use(axios)
-appR.mount('#app')
+createApp(App).use(store).use(axios).mount('#app')

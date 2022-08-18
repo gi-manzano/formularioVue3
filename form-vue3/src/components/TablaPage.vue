@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import {mapGetters} from 'vuex'
+// import {mapGetters} from 'vuex'
 
 export default {
 
@@ -36,11 +36,11 @@ export default {
     methods: {
     show () {console.log (this.showUsers)}
     },
-    computed : {
-      ...mapGetters ({
-        showUsers: 'showUsers'
-      })
-    },
+    // computed : {
+    //   ...mapGetters ({
+    //     showUsers: 'showUsers'
+    //   })
+    // },
 }
 </script>
 
